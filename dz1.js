@@ -18,24 +18,24 @@ if (are >= 18) {
 }
 
 //Задание 4
-let Blok = confirm('Хотите ввести название блока?')
+let Blok = confirm('Хотите ввести название блока?');
 if (Blok === false) {
     confirm('Элементу не присвоен класс')
 } else {
-    Blok = prompt('Введите название блока')
+    Blok = prompt('Введите название блока');
 }
-let element = confirm('Хотите ввести название элементa?')
+let element = confirm('Хотите ввести название элементa?');
 if (element === false) {
-    confirm('Закончить выполнение скрипта')
+    confirm('Закончить выполнение скрипта');
 } else {
-    element = prompt('Введите название элемента','__')
+    element = prompt('Введите название элемента','__');
 
 let modif = confirm('Хотите ввести название модификатора?')
 if (modif === false) {
-    alert(`${Blok} ${element}`)
+    alert(`${Blok} ${element}`);
 } else {
-    modif = prompt('Введите название модификатора','_')
-    alert(`${Blok} ${element} ${modif}`)
+    modif = prompt('Введите название модификатора','_');
+    alert(`${Blok} ${element} ${modif}`);
 }}
 
 //Задание 5
