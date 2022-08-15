@@ -9,7 +9,7 @@ const c = number1 + number2;
 alert(`${'Результат сложение :'} ${c}`);
 
 //Задание 3
-const Name = prompt('Введите Ваше имя')
+const Name = prompt('Введите Ваше имя');
 const are = parseInt(prompt('Введите ваш возраст', ''));
 if (are >= 18) {
     alert(`${'Добро пожаловать'} ${Name}`);
